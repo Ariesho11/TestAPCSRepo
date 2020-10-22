@@ -11,6 +11,11 @@ public class Demo{
     }
     return ns;
   }
+
+  public static void main(String[] args){
+    System.out.print(Demo.demo(5));
+  }
+
   public static String arrToString(int[] arr){
     String ns = "{";
     for (int i = 0; i < arr.length; i++){
@@ -20,6 +25,7 @@ public class Demo{
     ns = ns + "}";
     return ns;
   }
+
   public static String arrDeepToString(int[][] darr){
     String ns = "{";
     for (int i = 0; i < darr.length; i++){
@@ -31,7 +37,8 @@ public class Demo{
     }
     ns = ns + "}";
     return ns;
-    }
+  }
+
   public static int[][] create2DArray(int rows, int clmns, int maxValue){
     int[][] na = new int[rows][clmns];
     for(int i = 0; i < rows; i++){
@@ -41,6 +48,7 @@ public class Demo{
     }
     return na;
   }
+
   public static int[][] create2DArrayRandomized(int rows, int clmns, int maxValue){
     int[][] na = new int[rows][];
     for(int i = 0; i < rows; i++){
@@ -51,4 +59,5 @@ public class Demo{
         }
     }
     return na;
+  }
 }
