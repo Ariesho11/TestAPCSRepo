@@ -1,5 +1,5 @@
-public class Demo_{
-  public static String dem(int a){
+public class Demo{
+  public static String demo(int a){
     int print = 1;
     String ns = "";
     for (int i = 0; i<=a-1; i++){
