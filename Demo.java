@@ -26,7 +26,7 @@ public class Demo{
     return ns;
   }
 
-  public static String arrDeepToString(int[][] darr){
+  public static String arrayDeepToString(int[][] darr){
     String ns = "{";
     for (int i = 0; i < darr.length; i++){
       for (int a = 0; a < darr[i].length; a++){
